@@ -56,6 +56,7 @@ public class cve {
         cve.put("eternalblue",new CveInfo("eternalblue","CVE-2017-0146","Microsoft Windows SMB 输入验证漏洞"));
         cve.put("dos",new CveInfo("dos","CVE=Null","dos攻击"));
         cve.put("scan",new CveInfo("scan","CVE=Null","scan扫描攻击"));
+        cve.put("burst",new CveInfo("burst","CVE=Null","暴力破解"));
         System.out.println(cve.get("bof000"));
     }
 }
