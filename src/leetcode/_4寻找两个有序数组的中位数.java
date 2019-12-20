@@ -31,6 +31,8 @@ public class _4寻找两个有序数组的中位数 {
         return  (all[all.length/2]+all[(all.length-1)/2])/2.0;
     }
 
+
+
     public static void main(String[] args) {
         //int []arr1={1,2,3,4};
         //int []arr2={2,3,4,5};
